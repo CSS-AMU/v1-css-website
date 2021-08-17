@@ -71,9 +71,10 @@ li {
 }
 
 .logo h2 {
-  font-size: 2.5rem;
+  font-size: 2rem;
   font-weight: 400;
   text-transform: uppercase;
+  margin-left: 5px;
 }
 
 .logo {
@@ -82,8 +83,9 @@ li {
   align-items: center;
 }
 .logo img {
-  height: 10rem;
+  height: 5rem;
   object-fit: contain;
+  border-radius: 10px;
 }
 .menu-link ul li {
   font-size: 1.8rem;

@@ -1,11 +1,6 @@
 import React, { useState } from "react";
 import logo from "./pp.jpg";
 import "./navbar.css";
-import {
-  FaFacebookSquare,
-  FaInstagramSquare,
-  FaYoutubeSquare,
-} from "react-icons/fa";
 import { GiHamburgerMenu } from "react-icons/gi";
 
 const Navbar = () => {
@@ -14,7 +9,7 @@ const Navbar = () => {
     <>
       <nav className="main-nav">
         <div className="logo">
-          <img src={logo} alt="logo" />
+          <img src="images/css-logo.jpeg" alt="logo" />
           <div className="heading">
             <h2>Computer Science Society</h2>
           </div>
@@ -42,23 +37,6 @@ const Navbar = () => {
         </div>
 
         <div className="social-media">
-          <ul className="social-media-desktop">
-            <li>
-              <a href="#1" target="_">
-                <FaFacebookSquare className="facebook" />
-              </a>
-            </li>
-            <li>
-              <a href="#2" target="_">
-                <FaInstagramSquare className="instagram" />
-              </a>
-            </li>
-            <li>
-              <a href="#3" target="_">
-                <FaYoutubeSquare className="youtube" />
-              </a>
-            </li>
-          </ul>
           <div className="hamburger-menu">
             <a href="#d" onClick={() => setShowMediaIcons(!showMediaIcons)}>
               <GiHamburgerMenu />

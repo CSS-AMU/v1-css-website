@@ -1,0 +1,35 @@
+* {
+   margin: 0;
+   border: 0; 
+}
+
+.container{
+    color: white;
+    background-color: black;
+    padding: 70px 10px 50px;
+}
+
+a{
+    font-size: 14px;
+    font-family: "Montserrat";
+}
+
+p{
+    font-size: 14px;
+    margin-top: 5px;
+    font-family: "Montserrat";
+}
+
+h1{
+    font-size: 18px;
+    font-weight: 600;
+}
+
+span{
+    margin: 12px;
+}
+
+hr{
+    border: 1.5px solid;
+    margin-bottom: 15px;
+}
